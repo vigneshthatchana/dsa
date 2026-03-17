@@ -13,5 +13,5 @@ def pairsum(arr,target):
       left += 1
     else:
       right -= 1
-  return None
+  return count
 
