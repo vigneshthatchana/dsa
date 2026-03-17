@@ -7,9 +7,9 @@ def twopointer(arr,target):
     if current_sum == target:
       return left,right
     elif current_sum < target:
-      right -= 1
-    else:
       left += 1
+    else:
+      right -= 1
   return None
 
 
